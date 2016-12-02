@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        style="@style/WidthMP_HeightWC">
+        <LinearLayout
+            style="@style/WidthMP_HeightWC"
+            android:orientation="vertical">
+
+            <Spinner android:id="@+id/spinner"
+                style="?android:attr/dropDownSpinnerStyle"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:prompt="@string/Appeal"
+                android:ellipsize="none"
+                android:singleLine="false"
+                android:text="asdf"/>
+
+            <!--Гениколог нервопатолог окулист терапевт уролог проктолог травмотолог узи суставов/сосудов-->
+            <!--First-->
+            <TableLayout android:id="@+id/first"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пеганова Екатерина Сергеевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 110 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №224 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вт. 16:00 16:20 16:40"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Чт. 16:00 16:20 16:40" />
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пт. 8:00 8:20 8:40" />
+                </TableRow>
+            </TableLayout>
+            <!--Second-->
+            <TableLayout android:id="@+id/second"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вдовико Елена Алексеевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 110 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №224 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Ср. 9:00 9:20 9:40"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пт. 9:00 9:20 9:40" />
+                </TableRow>
+            </TableLayout>
+            <!--Third-->
+            <TableLayout android:id="@+id/third"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Горинштейн Ирина Николаевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 110 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №223 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 15:00 15:20 15:40"/>
+                </TableRow>
+            </TableLayout>
+            <!--Fourth-->
+            <TableLayout android:id="@+id/fourth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Северина Инна Николаевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №225 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Каждый день с 8:00 до 16:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Fifth-->
+            <TableLayout android:id="@+id/fifth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Маргелова Ксения Михайловна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №801 (8-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн., Вт., Пт. 14:00 14:20 14:40 15:00"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Ср. 15:30 16:00 16:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Sixth-->
+            <TableLayout android:id="@+id/sixth"
+                android:visibility="gone"
+                android:shrinkColumns="0"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Гузенко Галина Викторовна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 120 грн. 180 грн. (+кольпоскопия)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №222 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:30 9:00 9:30 10:00 10:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Seventh-->
+            <TableLayout android:id="@+id/seventh"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Романок Марина Валентиновна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 100 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №224 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 10:00 10:30"/>
+                </TableRow>
+
+                <LinearLayout style="@style/WidthMP_HeightWC"
+                    android:background="#C1C4C4"
+                    android:orientation="vertical">
+                <TableRow style="@style/WidthMP_HeightWC"
+                    >
+                    <TextView style="@style/ForText"
+                        android:text="Афенко Валентин Васильевич"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 100 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №212 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 11:00 12:00"/>
+                </TableRow>
+                </LinearLayout>
+
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Мануйлов Николай Сергеевич (заведующий отделением)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 135 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет на 3-м этаже"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 12:20 13:00 13:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Eighth-->
+            <TableLayout android:id="@+id/eighth"
+                android:visibility="gone"
+                android:shrinkColumns="0"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кивенко Светлана Николаевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 95 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №211 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 9:00 9:30 10:00 10:30 11:00 11:30 12:00 12:30 13:00 13:30 14:00 14:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Ninth-->
+            <TableLayout android:id="@+id/ninth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Смирнова Татьяна Ильинична"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 100 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №215 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:00 8:30 9:00 9:30 10:00 10:30 11:00 11:30"/>
+                </TableRow>
+
+            </TableLayout>
+            <!--Tenth-->
+            <TableLayout android:id="@+id/tenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Весельский Владимир Мячеславович"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №901 (9-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:30 9:00 9:30 10:00 10:30"/>
+                </TableRow>
+
+                <LinearLayout style="@style/WidthMP_HeightWC"
+                    android:background="#C1C4C4"
+                    android:orientation="vertical">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кожухарь Виталий Викторович"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №901 (9-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:30 9:00 9:30 10:00 10:30"/>
+                </TableRow>
+                </LinearLayout>
+
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Весельский Артем Владимирович (заведующий отделением)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 135 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №901 (9-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:30 9:00 9:30 10:00 10:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Eleventh-->
+            <TableLayout android:id="@+id/eleventh"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Мороз Иван Юрьевич"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №901 (9-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 9:00 9:30 10:00 10:30 11:00 11:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Twelfth-->
+            <TableLayout android:id="@+id/twelfth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Бакуменко Вадим Петрович"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 170 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №220 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:30 9:00 9:30 10:00 10:30 11:00 11:30 12:30 13:00 13:30"/>
+                </TableRow>
+
+
+            </TableLayout>
+            <!--Thirteenth-->
+            <TableLayout android:id="@+id/thirteenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Малышев Вадим Валерьевич"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №601 (6-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:00 8:20 8:40"/>
+                </TableRow>
+
+                <LinearLayout style="@style/WidthMP_HeightWC"
+                    android:background="#C1C4C4"
+                    android:orientation="vertical">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Юркив Валентина Юрьевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 105 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №601 (6-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 8:00 8:20 8:40"/>
+                </TableRow>
+                </LinearLayout>
+
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Черный Вадим Николаевич (к.м.н. заведующий отделением)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 150 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №601 (6-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. 9:00 9:30 10:00 10:30 11:00 11:30"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Ср. 12:00 12:30 13:00 13:30 14:00 14:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Fourteenth-->
+            <TableLayout android:id="@+id/fourteenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Петрик Наталья Игоревна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 110 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №224 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн. - Пт. 10:00 10:30 11:00 11:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Fifteenth-->
+            <TableLayout android:id="@+id/fifteenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Трофименко Марина Михайловна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 110 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет на 1-м этаже"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн., Ср. 8:30 9:00 9:30 10:00 10:30 11:00 11:30"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вт. 12:00 12:30 13:00 13:30 14:00 14:30" />
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Чт. 15:00 15:30"/>
+                </TableRow>
+            </TableLayout>
+            <!--Sixteenth-->
+            <TableLayout android:id="@+id/sixteenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Авраменко Виталий Викторович"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 160 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №227 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вт., Чт. 15:00 15:15 15:30 15:45" />
+                </TableRow>
+            </TableLayout>
+            <!--Seventeenth-->
+            <TableLayout android:id="@+id/seventeenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Иващенко Инна Викторовна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 175 грн. 205 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №227 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн., Пт. 12:00 12:30 13:00 13:30 14:00 14:30" />
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вт. - Чт. 9:00 9:30 10:00 10:30 11:00 11:30" />
+                </TableRow>
+            </TableLayout>
+            <!--Eighteenth-->
+            <TableLayout android:id="@+id/eighteenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Маслова Ирина Геннадиевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 230 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №227 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Пн., Пт. 9:00 9:30 10:00 10:30 11:00 11:30" />
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вт. - Чт. 12:00 12:30 13:00 13:30 14:00 14:30" />
+                </TableRow>
+            </TableLayout>
+            <!--Nineteenth-->
+            <TableLayout android:id="@+id/nineteenth"
+                android:shrinkColumns="0"
+                android:visibility="gone"
+                style="@style/WidthMP_HeightWC">
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Маслова Ирина Геннадиевна"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Стоимость первичного осмотра: 155 грн."/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Кабинет №226 (2-й этаж)"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Время приема"/>
+                </TableRow>
+                <TableRow style="@style/WidthMP_HeightWC">
+                    <TextView style="@style/ForText"
+                        android:text="Вт. - Чт. 9:00 9:30 10:00 10:30 11:00 11:30" />
+                </TableRow>
+            </TableLayout>
+
+
+            <Button
+                android:id="@+id/date"
+                style="@style/WidthMP_HeightWC"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/date"
+                android:onClick="showDatePickerDialog"
+                android:background="@drawable/mybutton"
+                android:layout_marginBottom="5dp"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/time"
+                style="@style/WidthMP_HeightWC"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="@string/time"
+                android:onClick="showTimePickerDialog"
+                android:background="@drawable/mybutton"
+                android:textColor="@android:color/white"/>
+
+            <EditText
+                android:id="@+id/editFullName"
+                style="@style/WidthMP_HeightWC"
+                android:inputType="textCapWords"
+                android:hint="@string/name"/>
+
+            <AutoCompleteTextView android:id="@+id/autoCompleteTextView"
+                style="@style/WidthMP_HeightWC"
+                android:hint="@string/email"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:id="@+id/editPhoneNumber"
+                style="@style/WidthMP_HeightWC"
+                android:inputType="number"
+                android:digits="0123456789"
+                android:maxLength="10"
+                android:hint="@string/phoneNumber"/>
+
+            <!--<EditText
+                android:id="@+id/editExtraInfo"
+                style="@style/WidthMP_HeightWC"
+                android:inputType="textCapSentences|textMultiLine"
+                android:gravity="left|top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="15dp"
+                android:ellipsize="start"
+                android:lines="5"
+                android:maxLength ="1000"
+                android:hint="@string/extraInfo"
+                android:background="@layout/border"/>-->
+
+            <EditText
+                android:id="@+id/editExtraInfo"
+                style="@style/WidthMP_HeightWC"
+                android:inputType="textCapSentences|textMultiLine"
+                android:lines="5"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginRight="3dp"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="start"
+                android:gravity="left|top"
+                android:padding="5dp"
+                android:hint="@string/extraInfo"
+                android:background="@drawable/edit_text_style"/>
+
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Напомнить"
+                android:textSize="18dp"
+                android:checked="false"
+                android:visibility="gone"/>
+
+            <Button android:id="@+id/btnSend"
+                style="@style/WidthMP_HeightWC"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                android:text="@string/send"
+                android:onClick="onClickSendAppeal"
+                    android:background="@drawable/mybutton"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

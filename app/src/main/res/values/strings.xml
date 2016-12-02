@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Запись Online</string>
+    <string name="appeal_to_doctor">Запись на прием</string>
+
+    <string name="Appeal">Записаться на прием</string>
+    <string name="location">Карта проезда</string>
+    <string name="dear_customers">Уважаемые пациенты!</string>
+    <string name="date">Желаемая дата приема</string>
+    <string name="time">Желаемое время приема</string>
+    <string name="name">Ваше имя</string>
+    <string name="email">Ваш e-mail (по желанию)</string>
+    <string name="phoneNumber">Ваш телефон</string>
+    <string name="extraInfo">Дополнительная информация</string>
+    <string name="send">Отправить</string>
+    <string name="ok">OK</string>
+
+    <string name="loading">Загрузка...</string>
+    <string name="fill_in_fields">Вы не указали:</string>
+    <string name="specialization_of_doctor">Выбрать врача</string>
+    <string name="data_of_visit_the_doctor">Дату посящения врача</string>
+    <string name="time_of_visit_the_doctor">Время посящения врача</string>
+    <string name="their_name">Свое имя</string>
+    <string name="phone_number">Контактный телефон</string>
+    <string name="phone_number_uncorrect">Не правильно введен контактный номер</string>
+    <string name="pick_account">Pick account</string>
+    <string name="not_online">not Online</string>
+
+    <string name="delete_appeal">Удалить заявку?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <!-- Messages about errors. -->
+    <string name="error">Ошибка</string>
+    <string name="can_not_connect_to_server">Не удалось подключиться к серверу. Проверьте интернет соединение или попробуйте позже.</string>
+
+    <string name="AllPatients">All patients</string>
+    <string name="exit">Выход</string>
+
+    <string name="info1">Заполните форму и наш администратор свяжется с Вами в ближайшее время!</string>
+    <string name="info2">*В случае, если Вы оставили запись в субботу, воскресенье или праздничный день, Вам перезвонят в ближайший рабочий день!</string>
+    <string name="info3">**Время записи Вы выбираете приблизительно, в случае, если окажется, что на выбранное Вами время уже есть посетитель, Вам будет предложены другие, наиболее подходящие для Вас варианты.</string>
+    <string name="info4">***Заполнением данной формы, Вы даёте согласие ООО «Клиника Мотор-Сич» на обработку своих персональных данных, в соответствии с Законом Украины «О защите персональных данных».</string>
+</resources>

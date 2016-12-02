@@ -1,0 +1,154 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentFrame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+    <LinearLayout
+        android:id="@+id/sdf"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/btnAppeal"
+            style="@style/WidthMP_HeightWC"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickAppeal"
+            android:text="@string/Appeal"
+            android:background="@drawable/mybutton"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnCoordinates"
+            style="@style/WidthMP_HeightWC"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickCoordinates"
+            android:text="@string/location"
+            android:background="@drawable/mybutton"
+            android:textColor="@android:color/white"/>
+
+        <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="top">-->
+
+
+        <ListView
+            android:id="@+id/remindList"
+            style="@style/WidthMP_HeightWC"
+            android:layout_weight="1" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabCall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_gravity="bottom|right|end"
+            app:layout_anchor="@id/remindList"
+            app:layout_anchorGravity="bottom|right|end"
+            android:src="@android:drawable/stat_sys_phone_call_forward"/>
+
+
+
+        <!--<ExpandableListView
+            android:layout_weight="0"
+            android:id="@+id/patientInfo"
+            style="@style/WidthMP_HeightWC"
+            android:gravity="bottom" >
+
+        </ExpandableListView>-->
+        <Button
+
+            android:id="@+id/btnInfo"
+            style="@style/WidthMP_HeightWC"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:onClick="onClickInfo"
+            android:text="@string/dear_customers"
+            android:paddingLeft="10dp"
+            android:drawableLeft="@android:drawable/ic_dialog_info"
+            android:background="@drawable/mybutton"
+            android:textColor="@android:color/white"/>
+
+
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--<ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#C1C4C4">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/ForText"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="Уважаемые пациенты!" />
+
+                <TextView
+                    style="@style/ForText"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="Заполните форму и наш администратор свяжется с Вами в ближайшее время!" />
+
+                <TextView
+                    style="@style/ForText"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="*В случае, если Вы оставили запись в субботу, воскресенье или праздничный день, Вам перезвонят в ближайший рабочий день!" />
+
+                <TextView
+                    style="@style/ForText"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="**Время записи Вы выбираете приблизительно, в случае, если окажется, что на выбранное Вами время уже есть посетитель, Вам будет предложены другие, наиболее подходящие для Вас варианты." />
+
+                <TextView
+                    style="@style/ForText"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:text="***Заполнением данной формы, Вы даёте согласие ООО «Клиника Мотор-Сич» на обработку своих персональных данных, в соответствии с Законом Украины «О защите персональных данных»." />
+            </LinearLayout>
+        </ScrollView>-->
+
+
+
+    </LinearLayout>
+
+        </android.support.design.widget.CoordinatorLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
